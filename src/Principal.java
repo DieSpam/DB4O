@@ -21,7 +21,7 @@ public class Principal {
 
 		int opc;
 
-		//comentario diego
+		//comentario
 		cargarDatosIniciales();
 
 		do {
