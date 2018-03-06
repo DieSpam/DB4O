@@ -31,6 +31,7 @@ public class Principal {
 
 	}
 
+	//otro comentario
 	private static void cargarDatosIniciales() {
 
 		File f = new File(BD_INSTITUTO); // SI NO EXISTE EL FICHERO CON LA BD LO CREA
