@@ -12,6 +12,7 @@ import com.db4o.query.Predicate;
 public class Principal {
 	
 	//cambio rama diego
+	//nuevo comentario
 	private static final String BD_INSTITUTO = "instituto.yap";
 	private static final int OPCION_SALIR = 4;
 	private static Scanner teclado = new Scanner(System.in);
