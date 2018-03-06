@@ -1,7 +1,5 @@
 
 import java.io.File;
-import java.util.ArrayList;
-import java.util.Comparator;
 import java.util.LinkedList;
 import java.util.Scanner;
 
@@ -43,6 +41,7 @@ public class Principal {
 			db.store(new Alumno("444", "Maria Jose", "Alvarez Ortiz"));
 			db.store(new Alumno("555", "Marta", "Jimenez Rosas"));
 			db.store(new Alumno("666", "Sara", "Suarez Jimenez"));
+			db.store(new Alumno("777", "Diego", "Arroyo Garcia"));
 
 			matematicas = new Departamento(1, "Matematicas");
 			informatica = new Departamento(2, "Informatica");
@@ -144,7 +143,7 @@ public class Principal {
 				
 				//Recorremos la lista de asignaturas en las que esta matriculado el alumno
 				//Comprobamos que no esta matriculado en la asignatura indicada
-				for(Asignatura asignatura : listaAsignaturas) {
+				for(Asignatura asignatura : asignaturasAlumno) {
 					if (asignaturaMatricular.equals(asignatura)) {
 						matriculado = true;
 						System.out.println("ERROR. El alumno ya esta matriculado en la asignatura");
