@@ -21,7 +21,6 @@ public class Principal {
 
 		int opc;
 
-
 		//comentario master
 		cargarDatosIniciales();
 
